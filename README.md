@@ -10,6 +10,20 @@ Sistema de gestión de autobuses para CivaTours.
 - Documentación con Swagger UI
 - Base de datos PostgreSQL
 
+## Endpoints
+
+- **Autentication**
+
+![endpoint_autentication.jpeg](assets/endpoint_autentication.jpeg)
+
+- **Users**
+
+![endpoint_users.jpeg](assets/endpoint_users.jpeg)
+
+- **Bus**
+
+![enpoint_bus.jpeg](assets/enpoint_bus.jpeg)
+
 ## Tecnologías
 
 - Spring Boot 3.5.6

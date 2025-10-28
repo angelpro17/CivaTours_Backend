@@ -17,12 +17,6 @@ public class BusEventHandlers {
                 event.getBusNumber(), 
                 event.getLicensePlate(), 
                 event.getBusBrand());
-        
-        // Aquí podrías agregar lógica adicional como:
-        // - Enviar notificaciones
-        // - Actualizar índices de búsqueda
-        // - Registrar en auditoría
-        // - Integrar con sistemas externos
     }
 
     @EventListener
@@ -32,10 +26,5 @@ public class BusEventHandlers {
                 event.getBusNumber(), 
                 event.getPreviousStatus(), 
                 event.getNewStatus());
-        
-        // Aquí podrías agregar lógica adicional como:
-        // - Notificar cambios de estado
-        // - Actualizar dashboards
-        // - Registrar en logs de auditoría
     }
 }
